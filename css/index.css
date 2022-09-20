@@ -1,0 +1,68 @@
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3f3f3f;
+    width: 100%;
+}
+
+.navLink{
+    float: right;
+}
+
+.navItem .navLink{
+    display: block;
+    color: #F2F2F2;
+    font-size: larger;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #df6cee;
+}
+
+h1, h3, p, tr{
+    color: #F2F2F2;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:link {
+    color: aqua;
+}
+a:visited{
+    color:#df6cee
+}
+
+hr{
+    border-color: #5CB8E4;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.workExpTable{
+    width: 100%;
+}
+
+th{
+    text-align: start;
+    border-bottom: 1px solid #868585;
+}
+td{
+    padding: 5px;
+}
+
+.workExpRow:nth-child(even){
+    background-color: #474747;
+}
+
+.skillItem{
+    border-right: 1px solid #F2F2F2;
+}

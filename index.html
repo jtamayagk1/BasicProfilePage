@@ -1,9 +1,15 @@
 <html>
     <head>
-        <meta>
-        <title>MY PROJECT</title>
+        <meta charset="utf-8">
+        <title>Jonathan Amaya</title>
+        <link rel="stylesheet" href="./css/index.css">
     </head>
-    <body>
+    <body style="background-color: #181818;">
+        <ul class="navbar">
+            <li class="navItem"><a href="work.html" class="navLink">Work</a></li>
+            <li class="navItem"><a href="contact.html" class="navLink">Contact</a></li>
+            <li class="navItem"><a href="index.html" class="navLink active">Home</a></li>
+        </ul>
         <div>
             <h1>Jonathan Amaya</h1>
             <h3>Application Developer</h3>
@@ -12,16 +18,7 @@
             <hr>
         </div>
         <div>
-            <h2>Certifications</h2>
-            <div>
-                <ul>
-                    <li><a href="https://www.credly.com/badges/56dd2c6b-9747-487d-92aa-133bd1a0e910/public_url">AWS Cloud Practitioner</a></li>
-                    <li><a href="https://www.credly.com/badges/87e4a5b7-8cc6-40be-8fa4-88d71d33afb8/public_url">AWS Developer Associate</a></li>
-                    <li>Azure Cloud Practitioner</li>
-                    <li>Microsoft365 Practitioner</li>
-                    <li>Professional Scrum Developer</li>
-                </ul>
-            </div>
+            <h3>Certifications</h3>
             <div>
                 <img src="./Images/aws-certified-cloud-practitioner.png" alt="Practitioner">
                 <img src="./Images/aws-certified-developer-associate.png" alt="Developer">
@@ -31,19 +28,19 @@
         </div>
         <div>
             <h3>Work Experience</h3>
-            <table>
+            <table class="workExpTable">
                 <thead>
                     <th>Date</th>
                     <th>Company</th>
                     <th>Description</th>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="workExpRow">
                         <td>02/2022 - Current</td>
                         <td>SoftwareONE</td>
                         <td>Join the academy in February and worked on the Skills Matrix application</td>
                     </tr>
-                    <tr>
+                    <tr class="workExpRow">
                         <td>07/2018 - Current</td>
                         <td>GSA</td>
                         <td>Work in the concession stand</td>
@@ -58,11 +55,11 @@
                 <tr>
                     <td>
                         <table>
-                            <tr>
+                            <tr class="skillItem">
                                 <td>AWS Development</td>
                                 <td>⭐⭐⭐⭐</td>
                             </tr>
-                            <tr>
+                            <tr class="skillItem">
                                 <td>Java</td>
                                 <td>⭐⭐</td>
                             </tr>
@@ -70,11 +67,11 @@
                     </td>
                     <td>
                         <table>
-                            <tr>
+                            <tr class="skillItem">
                                 <td>React</td>
                                 <td>⭐⭐⭐</td>
                             </tr>
-                            <tr>
+                            <tr class="skillItem">
                                 <td>JavaScript</td>
                                 <td>⭐⭐</td>
                             </tr>
